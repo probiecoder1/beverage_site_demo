@@ -19,9 +19,48 @@ html, body {
     overflow-y: hidden;
 }
 
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    /* background-color: #444; */
+    padding: 0.5em;
+}
+
+div a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
 /* Nav Top Css */
 
 #nav_top {
+    /* background-color: #74a7f7; */
     width: 94.2vw;
     height: 12vh;
     padding: 0 4.5vw 0 4vw;
@@ -373,8 +412,8 @@ html, body {
 }
 
 #page4_color_image4 {
-    width: 16vw;
-    height: 50vh;
+    width: 12vw;
+    height: 70vh;
     margin: 45vh 0 0 -165vh;
     transform: rotate(-17deg);
 }
